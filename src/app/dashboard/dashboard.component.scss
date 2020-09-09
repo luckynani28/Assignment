@@ -1,0 +1,174 @@
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+.nopad{
+    padding: 0px;
+}
+.pt-5{
+    padding-top: 5px !important;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.pr-15{
+    padding-right: 15px;
+}
+.pt-10{
+    padding-top: 10px !important;
+}
+.pad20{
+    padding: 20px;
+}
+.font-bold{
+    font-weight: bold;
+}
+.mb-45{
+    margin-bottom: 45px;
+}
+.mr-25{
+    margin-right: 25px;
+}
+.ml-25{
+    margin-left: 25px;
+}
+.navbg{
+    background-color: #4269EA
+}
+.bodybg{
+    background-color: #F1F3F6;
+    margin-top: 4.5%;
+}
+.yellowcolor{
+    color: #F7CD22;
+}
+.whitecolor{
+    color: #FFFFFF;
+}
+.greencolor{
+    color: #14A214
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-28{
+    font-size: 28px
+}
+img{
+    width: 308px;
+    height: 233px;
+}
+.fa{
+    cursor: pointer;
+}
+.btn-warning{
+border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.sortFilter{
+    font-size: 20px;
+    bottom: 2px;
+    position: relative;
+    left: 4px;
+}
+.del-color{
+    color: #969696;
+    position: relative;
+    left: 32%;
+}
+.cartbadge{
+    position: relative;
+    bottom: 12px;
+    right: 19px;
+}
+
+// mobile-css
+//ipad landscape..............
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+    img{
+        width: 222px !important;
+        height: 200px !important;
+    }
+    .del-color{
+        left: 19% !important;
+    }
+    .bodybg {
+        margin-top: 6% !important;
+    }
+    .ipadmr{
+        margin-right: 15px !important;
+    }
+}
+//ipad portrait..................
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait){
+    img{
+        width: 353px !important;
+        height: 230px !important;
+    }
+    .bodybg {
+        margin-top: 8% !important;
+    }
+}
+//mobile portrait.............
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (orientation : portrait)
+ {
+    img{
+        width: 180px;
+        height: 180px;
+    }
+    .del-color{
+        color: #969696;
+        position: relative;
+        left: 13% !important;
+    }
+    .bodybg{
+        background-color: #F1F3F6;
+        margin-top: 15% !important;
+    }
+    .ipadmr{
+        margin-right: 15px !important;
+    }
+    .phnemar{
+        margin-right: 74px !important;
+    }
+    .phnemarfilter{
+        margin-right: 84px !important;
+    }
+}
+//mobile landscape.............
+@media (min-width: 481px) and (max-width: 767px)
+and (orientation : landscape) {
+    .bodybg {
+        margin-top: 8.5% !important;
+    }
+    img {
+        width: 340px !important;
+        height: 233px !important;
+    }
+    .ipadmr{
+        margin-right: 15px !important;
+    }
+   
+  }
+  

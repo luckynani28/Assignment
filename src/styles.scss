@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body{
+    overflow-x: hidden !important;
+}
+.mat-icon{
+    float:right;
+    color:#FFFFFF;
+    position: relative;
+    bottom: 18px;
+}
+.mat-form-field-appearance-legacy .mat-form-field-underline{
+    background-color: #FFFFFF !important;
+}
+.mat-form-field-appearance-legacy .mat-form-field-wrapper {
+    padding-bottom: 0px !important;
+}
+.mat-form-field-appearance-legacy .mat-form-field-label{
+    color: #FFFFFF !important;
+}
+.mat-form-field {
+    margin-right: 50px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
